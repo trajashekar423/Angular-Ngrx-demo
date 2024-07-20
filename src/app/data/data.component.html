@@ -1,0 +1,7 @@
+<select class="form-select" aria-label="Default select example">
+    @for(groc of Mygrocery$ | async; track groc.id){
+   
+    <option value="1">{{groc.id}}</option>
+    
+    }
+  </select>
